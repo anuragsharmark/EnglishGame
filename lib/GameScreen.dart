@@ -177,7 +177,7 @@ class _GameScreenState extends State<GameScreen> {
                         color: SumOfDice == 2 ? Colors.yellow : Colors.brown),
                     TenseBlock(
                         text: SumOfDice == 0 ? '' : Tense[3],
-                        color: SumOfDice == 3 ? Colors.yellow : Colors.brown),
+                        color: SumOfDice == 3 ? Colors.yellow : Colors.brown), 
                     TenseBlock(
                         text: SumOfDice == 0 ? '' : Tense[4],
                         color: SumOfDice == 4 ? Colors.yellow : Colors.brown),
